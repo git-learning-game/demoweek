@@ -15,7 +15,7 @@ Git hat allerdings den notorischen Ruf, eine steile Lernkurve zu haben. Es beinh
 
 ## Download
 
-Das Spiel ist im Wesentlichen fertig, und steht auf folgender Seite für Linux, macOS und Windows zum Download bereit. Es wurde dort bereits über 450 mal heruntergeladen:
+Das Spiel ist im Wesentlichen fertig und benutzbar, und steht auf folgender Seite für Linux, macOS und Windows zum Download bereit:
 
 [blinry.itch.io/git-hydra](https://blinry.itch.io/git-hydra)
 
@@ -89,7 +89,7 @@ Unsere playtests hierzu waren sehr motivierend, beides schien gut anzukommen! Te
 
 Hier verfolgten wir für eine Weile die Idee, die Dateien als richtige **Objekte in einer 2D-Welt** zu haben. Reizvoll daran war, dass drei Stufen von Dateiinhalten - Datei im working directory, Datei im Index, und Datei im aktuellen commit - sehr gut grafisch darstellbar waren, nämlich als weiße Datei, als blaue "Aura", und als grauer Schatten. Für uns selbst war diese Form der Darstellung sehr augenöffnend, um beispielsweise zu verstehen, dass `git reset` sehr wörtlich das Gegenteil von `git add` ist.
 
-Wir dachten lange darüber nach, wie man **2D-Schiebepuzzel mit Türen** und Schaltern konstruieren könnte, und zwar so, dass man über die Kommandozeile nicht zu sehr "cheaten" könnte - fanden letztendlich aber keine Konfiguration von Regeln, die rund klang, und generell schien diese Richtung den Fokus von dem eigentlichen Lernhinhalt - Git selbst - wegzunehmen.
+Wir dachten lange darüber nach, wie man **2D-Schiebepuzzle mit Türen** und Schaltern konstruieren könnte, und zwar so, dass man über die Kommandozeile nicht zu sehr "cheaten" könnte - fanden letztendlich aber keine Konfiguration von Regeln, die rund klang, und generell schien diese Richtung den Fokus von dem eigentlichen Lernhinhalt - Git selbst - wegzunehmen.
 
 Nach einigen Wochen verwarfen wir die Änderungen in diesem branch komplett.
 
@@ -97,7 +97,7 @@ Nach einigen Wochen verwarfen wir die Änderungen in diesem branch komplett.
 
 ![](prototype-4.png)
 
-Hier begann dann eine Phase des Polierens. Auf das Feedback einer sehbehinderten Person hin machten wir hier alle **Texte größer**. Wir veränderten das **Bildschirm-Layout**, fügten eine **Levelübersicht** hinzu, sowie eine klarere **Aufschlüsselung der Ziele** als rote und grüne Boxen unter der Levelbeschreibung.
+Hier begann dann eine Phase des Feinschliffs. Auf das Feedback einer sehbehinderten Person hin machten wir hier alle **Texte größer**. Wir veränderten das **Bildschirm-Layout**, fügten eine **Levelübersicht** hinzu, sowie eine klarere **Aufschlüsselung der Ziele** als rote und grüne Boxen unter der Levelbeschreibung.
 
 Wir machten viele kleine Verbesserungen im User Interface und polierten viele der Levels. Und wir fanden einen Weg, die Vorteile der "drei Dateiversionen" aus unseren 2D-Experimenten auch hier unterzubringen: Als **Dateiicons in mehreren "Schichten"**. Wenn diese exakt aufeinanderliegen, sind die Inhalte identisch, wenn die Position voneinander abweicht, sind sie unterschiedlich.
 
@@ -109,7 +109,7 @@ Auch die Playtests für diese Version bestätigten uns, dass wir auf einem guten
 
 Um die Kommandozeilen-Benutzung mehr zu motivieren bauten wir golden glitzernde **"Terminal-Abzeichen"** ins Spiel ein, die man bekommt, wenn man ein Level ohne die Spielkarten löst.
 
-Die Level inhaltlich wirklich rund und vollständig zu haben, war zeitaufwändiger, als wir dachten, hier floss viel Polierarbeit hinein. Um den Einstieg zu erleichtern, fügten wir an bestimmte Interfaceelemente kleine, einmalig angezeigte **"Hints"** an.
+Die Level inhaltlich wirklich rund und vollständig zu haben, war zeitaufwändiger, als wir dachten, hier floss viel Polierarbeit hinein. Denn mittlerweile gab es viele Level zu verschiedensten Themen, mit deutlich über einer Stunde Gesamtspielzeit - und hier selbst den Überblick zu behalten, fiel uns nicht immer leicht. Um den Einstieg zu erleichtern, fügten wir an bestimmte Interfaceelemente kleine, einmalig angezeigte **"Hints"** an.
 
 Unser Freund [winniehell](https://winniehell.de) produzierte außerdem einen **Soundtrack** für dieses Spiel!
 
